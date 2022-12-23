@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29547dfb-6f4c-492c-80ec-280a72c59161" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="29547dfb-6f4c-492c-80ec-280a72c59161" name="Changes" comment="homework on encapsulation 7.1">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz01_dz02numbers/InputNumbers.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz01_dz02numbers/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz01_dz02numbers/RangeCrossing.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz01_dz02numbers/RangeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz03/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz03/WorkWithMoney.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz06/Librarian.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz06/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dz06/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dz03/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dz03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dz03/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dz03/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dz03/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dz03/WorkWithMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dz03/WorkWithMoney.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +28,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,6 +73,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.dz03" />
       <recent name="org.example.dz01_dz02numbers" />
       <recent name="org.example.dz01_numbers" />
     </key>
@@ -104,8 +105,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoneyTest.comparison (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.dz03.MoneyTest.comparison&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoneyTest.comparison (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.dz01_dz02numbers.Main" />
       </list>
@@ -120,6 +145,18 @@
       <option name="presentableId" value="Default" />
       <updated>1670329938591</updated>
     </task>
+    <task id="LOCAL-00001" summary="homework on encapsulation 7.1">
+      <created>1671780945953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671780945953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework on encapsulation 7.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework on encapsulation 7.1" />
   </component>
 </project>
